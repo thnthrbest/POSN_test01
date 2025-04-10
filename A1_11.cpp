@@ -1,18 +1,14 @@
 #include <bits/stdc++.h>
 using namespace std;
 int main(){
-    string a,b=" ";
+    string a,b="";
     int temp=0,count=0;
     cin >> a;
     for(int i=0;i<a.length();i++){
-    	if(b.find(a[i]) == true){
-        	continue;
-		}else{
 			for(;a[i]==a[i+temp];temp++);
-        	cout << temp << a[i];
+        	if(a[i]!=b[0])cout << temp << a[i];
+        	b =a[i];
         	temp=0;
-        	b +=a[i];
-		}
     }
 
 }
