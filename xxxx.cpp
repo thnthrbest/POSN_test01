@@ -3,5 +3,10 @@ using namespace std;
 int main(){
 	int a,b,c;
 	cin >> a >> b >>c;
-	cout << (a*10)+(b*25)+(c*3);
+	if(a>=5 && b>=20 && c>=25){
+		cout << "pass";
+	}else{
+		cout << "dddd";
+	}
+	return 0;
 }
