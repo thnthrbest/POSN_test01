@@ -1,4 +1,4 @@
-#include<bits/stdc++.h>;
+#include <bits/stdc++.h>
 using namespace std;
 int main(){
     int a[5][5]={0},x=-1,y=-1;
